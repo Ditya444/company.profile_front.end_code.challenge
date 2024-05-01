@@ -1,8 +1,10 @@
 import Image from "next/image";
 import "./globals.css";
 import Slider from "./_compnents/slider";
-import { sliderData } from "./_compnents/sliderData";
+// import { sliderData } from "./_compnents/sliderData";
 // import { CarouselDemo } from "./_compnents/carousel";
+import sliderData from "./_compnents/sliderData";
+import Slider from "./_compnents/slider";
 
 export default function Home() {
   return (
