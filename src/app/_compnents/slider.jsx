@@ -6,10 +6,10 @@ import "../globals.css";
 const Slider = ({ slides }) => {
   return (
     <div id="menu">
-      <h1>Menu</h1>
+     <h2 className=" text-5xl font-bold text-blue-500 text-center mb-2">Our Menu:</h2>
       {/* <div className=" flex justify-center items-center gap-4  max-w-screen-2xl m-auto overflow-scroll"> */}
 
-      <div className=" flex lg:max-w-screen-xl  max-w-lg overflow-scroll w-full lg:gap-4 no-scrollbar m-auto gap-3 px-5 ">
+      <div className=" flex lg:max-w-screen-xl snap-x max-w-lg overflow-scroll w-full lg:gap-4 no-scrollbar m-auto gap-3 px-5 ">
         {sliderData.map((slide, index) => {
           return (
             <img
